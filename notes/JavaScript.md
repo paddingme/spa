@@ -22,6 +22,7 @@ var spa = (function($){
         $chatSlider.attr('title',configMap.retracted_title)
             .click(onClickSlider);
         return true;
+        
     };
 
     return { initModule : initModule};
